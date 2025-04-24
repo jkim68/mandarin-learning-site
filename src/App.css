@@ -2,10 +2,13 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App-background {
+  background-color: #121212; /* Or any hex you like */
+  min-height: 100vh; /* Makes sure it covers the full viewport height */
+  color: #E0E0E0; /* Light text color for contrast */
+  padding: 1rem; /* Optional spacing */
 }
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
